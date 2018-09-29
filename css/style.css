@@ -18,8 +18,8 @@ body{
 
 nav{
 	margin: auto;
-	width: 800px;
-	height: 100px;
+	width: 750px;
+    height: 35px;
 }
 .logo{
 	
@@ -31,6 +31,8 @@ nav{
 	font-size: 20px;
 	margin-top: 35px;
 	border-radius: 10px;
+	height: 30px;
+    width: 741px;
 }
 .menu a{
 	color: #000;
@@ -43,7 +45,9 @@ nav{
 	transition: 0.06s;
 }
 .button {
-	height: 32px;
+	width: 365px;
+	height: 30px;
+	margin: auto;
 	font-size: 24px;
     position: relative;
     font-weight: bold;
@@ -68,7 +72,7 @@ nav{
     box-shadow: inset #ebab00 0 -1px 1px, inset 0 1px 1px #ffbf00, #cc7722 0 0 0 1px, 0 10px 10px -9px #000;
 }
 .dab {
-	width: 256px;
-    height: 36px;
+	width: 270px;
+    height: 35px;
 }
 
