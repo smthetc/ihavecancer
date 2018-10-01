@@ -17,7 +17,7 @@ body{
 }
 
 nav{
-	margin: auto;
+	margin-left: 460px;
 	width: 750px;
     height: 35px;
 }
@@ -32,7 +32,7 @@ nav{
 	margin-top: 35px;
 	border-radius: 10px;
 	height: 30px;
-    width: 741px;
+    width: 975px;
 }
 .menu a{
 	color: #000;
@@ -75,4 +75,7 @@ nav{
 	width: 270px;
     height: 35px;
 }
-
+.center{
+	margin-left: 810px;
+	color: #111111;
+}

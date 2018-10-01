@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-	<title>Страны мира</title>
+	<title>Опрос</title>
 </head>
 <body>
 	<header>
@@ -24,6 +24,24 @@
 		</div>
 	</nav>
 	</header>
+<div class="center">
+	<form name="test" method="post" action="input1.php">
+  <p><b>Ваше имя:</b><br>
+   <input type="text" size="40">
+   <p><b>Ваша фамилия:</b><br>
+   <input type="text" size="40">
+   <p><b>Ваше отчество:</b><br>
+   <input type="text" size="40">
+  </p>
+  <p><b>Ваш пол</b><Br>
+   <input type="radio" name="browser" value="ie"> муж
+   <input type="radio" name="browser" value="opera"> жен</p>
+  <p>Почему вы хотите зарегистрироваться?<Br>
+   <textarea name="comment" cols="40" rows="3"></textarea></p>
+  <p><input type="submit" value="Отправить">
+   <input type="reset" value="Очистить"></p>
+ </form>
+ </div>
 	<script src="js/script.js"></script>
 </body>
 </html>
