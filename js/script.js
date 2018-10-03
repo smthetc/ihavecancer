@@ -1,11 +1,12 @@
-var i=1;
-var total=1
-do {
+var rooffloor = ("___________");
+var wall = ("|4444|3333|");
+var center=("|----+----|");
 
-	total=total+i
-	i++
-}
-while (i<=50)
 
-console.log(total);
-console.log(i);
+console.log(rooffloor);
+console.log(wall);
+console.log(wall);
+console.log(center);
+console.log(wall);
+console.log(wall);
+console.log(rooffloor);
