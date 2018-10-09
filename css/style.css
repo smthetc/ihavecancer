@@ -109,3 +109,39 @@ textarea{
     background-color: #e7d6ff33;
     border-radius: 5px;
 }
+.contentblock {
+	width: 800px;
+	height: 800px;
+}
+.news {
+	width: 450px;
+	height: 100px;
+	background-color: red;
+	z-index:1;
+	top:250px;
+	left:250px;
+	position: absolute;
+}
+.facts {
+	width: 450px;
+	height: 100px;
+	background-color: yellow;
+	z-index:2;
+	top:270px;
+	left:230px;
+	position: absolute;
+}
+
+.ads {
+	width: 450px;
+	height: 100px;
+	background-color: blue;
+	z-index:3;
+	top:290px;
+	left:200px;
+	position: absolute;
+}
+.blockeverest {
+	color: green;
+	background-color: red;
+}
